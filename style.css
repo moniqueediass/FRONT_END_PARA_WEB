@@ -2,11 +2,27 @@
 body {
     font-family: Verdana, sans-serif;
     background-color: #0c7bae;
-    border: 1px solid #e7e7e7;
-    border-radius: 8px;
-    padding: 20px;
+    color: #1e293d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+        padding: 5px;
 }
 /* Estilo para a seção principal */
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: #fda5a5;
+    border: 1px solid #CCCCCC;
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+}
 section {
     background-color: #98edf0;
     border: 1px solid #41035d;
@@ -34,11 +50,41 @@ p {
 }
 .content {
     display: flex;
-    /* color: #34032b; */
+    color: #34032b; */
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 20px;
+}
 
+.cartão-perfil {
+    background-color: #ffffff;
+    padding: 24px;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+}
 
+.cartão-título {
+    font-size: 1.5rem;
+    font-weight: 700;
+    
+}
+
+.cartão-subtítulo {
+    color: #2563eb;
+    font-weight: 600;
+    
+}
+.cartão-descrição {
+    color: #4b5563
+    font-size: 1rem;
+    line-height:: 1,5;
+    
+}
+
+.cartão-status {
+    color: #10b981;
+    background-color: rgba(22, 163, 74 ,0.1);
+    text-transform: uppercase;
+    border-radius: 9999px;
 }
