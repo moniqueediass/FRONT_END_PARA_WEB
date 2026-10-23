@@ -1,0 +1,44 @@
+/* Criar um estilo para página, tais como cores e fontes das letras */
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #0c7bae;
+    border: 1px solid #e7e7e7;
+    border-radius: 8px;
+    padding: 20px;
+}
+/* Estilo para a seção principal */
+section {
+    background-color: #98edf0;
+    border: 1px solid #41035d;
+    border-radius: 8px;
+    padding: 20px;
+}
+/* Estilo para os artigos */
+article {
+    background-color: hwb(170 3% 9%);
+    border: 1px solid #2e6ecf;
+    border-radius: 8px;
+    padding: 20px;
+}
+/* Estilo para o cabeçalho */
+h2, h3 {
+    /* Toda vez que precisar trocar a cor do texto, declare a tag que contenha o texto que vai trocar de cor e chame o argumento color */
+    color: #141314;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+/* Cor para a letra de todo o site */
+p {
+    color: rgb(56, 2, 65);
+}
+.content {
+    display: flex;
+    /* color: #34032b; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+
+}
