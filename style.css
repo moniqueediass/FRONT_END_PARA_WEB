@@ -1,17 +1,24 @@
 /* Criar um estilo para página, tais como cores e fontes das letras */
 body {
-    font-family: Verdana, sans-serif;
-    background-color: #0c7bae;
+    font-family: 'Segoe UI',  sans-serif; 
     color: #1e293d;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 5px;
-        padding: 5px;
+    padding: 5px;
+
+/* Propriedades para a imagem de fundo */
+
+    background-image: url('/assets/background.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 /* Estilo para a seção principal */
 
-header{
+header {
     position: fixed;
     top: 0;
     left: 0;
@@ -31,10 +38,17 @@ section {
 }
 /* Estilo para os artigos */
 article {
-    background-color: hwb(170 3% 9%);
+    background-color: bisque;
     border: 1px solid #2e6ecf;
     border-radius: 8px;
     padding: 20px;
+}
+/* Estilo para o figure */
+figure {
+    background-color: bisque;
+    border: 2px solid #CCCCCC
+    border-radius: 8px;
+    padding: 20px; 
 }
 /* Estilo para o cabeçalho */
 h2, h3 {
@@ -50,7 +64,7 @@ p {
 }
 .content {
     display: flex;
-    color: #34032b; */
+    color: #34032b; 
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -76,9 +90,9 @@ p {
     
 }
 .cartão-descrição {
-    color: #4b5563
+    color: #4b5563;
     font-size: 1rem;
-    line-height:: 1,5;
+    line-height: 1,5;
     
 }
 
